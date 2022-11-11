@@ -11,12 +11,14 @@
        hanya untuk latihan
     """,
     'data': [
-	'views/sale_order_views.xml',
+        'views/purchase_order_view.xml',
+        'views/sale_order_views.xml',
+
 
     ],
     "depends": [
-        "sale","sale_management",
+        "sale", "sale_management", "purchase"
     ],
     'installable': True,
-    "images":['static/logo.png'],
+    "images": ['static/logo.png'],
 }
